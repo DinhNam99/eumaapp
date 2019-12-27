@@ -23,7 +23,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Utils {
-    public String url = "http://namnam.atwebpages.com/";
+    public String url = "http://eumaapp.atwebpages.com/";
     private Context context;
     public Utils(Context context){
         this.context = context;
