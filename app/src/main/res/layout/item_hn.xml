@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_width_heigth_big"
+    android:layout_marginBottom="@dimen/margin_5"
+    android:id="@+id/layout_item_hn"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tenhn"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_18"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginTop="@dimen/margin_big"
+        android:maxLines="2"
+        android:id="@+id/item_tenhn"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thongso"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="@dimen/text_15"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginTop="@dimen/margin_small"
+        android:id="@+id/thongso_item"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@color/colorText_light"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_big"
+        />
+</LinearLayout>

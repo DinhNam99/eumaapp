@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">EUMA</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="door">Door</string>
+    <string name="maKH">Mã khách hàng</string>
+    <string name="tk">Tài khoản</string>
+    <string name="mk">Mật khuẩu</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="noti_insert_username">Vui lòng nhập tài khoản</string>
+    <string name="noti_insert_password">Vui lòng nhập mật khẩu</string>
+    <string name="noti_insert_password2">Vui lòng nhập lại mật khẩu</string>
+    <string name="noti_insert_password3">Mật khẩu không khớp, vui lòng nhập lại</string>
+
+    <string name="hotro">Hỗ trợ: 19006128</string>
+    <string name="web">www.gymmaster.vn</string>
+
+    <string name="user">Username</string>
+    <string name="xinchao">Xin chào Us</string>
+
+    <string name="dangkimoi">Đăng kí tài khoản mới</string>
+    <string name="dangki">Đăng kí</string>
+    <string name="nhaplaimk">Nhập lại mật khẩu</string>
+    <string name="not">Hiện tại chưa có công trình</string>
+    <string name="not2">Hiện tại chưa có cửa</string>
+    <string name="tenctrinh">Tên công trình</string>
+    <string name="khungnhom">Khung Nhôm</string>
+    <string name="kinh">Kính</string>
+    <string name="cua">DS Cửa</string>
+    <string name="tonghopcua">Tổng hợp cửa</string>
+    <string name="tonghopkinh">Tổng hợp kính</string>
+    <string name="congtrinh">Công trình 1</string>
+    <string name="tencua">Tên cửa</string>
+    <string name="tenhn">Tên hệ nhôm</string>
+    <string name="thongso">Thông số</string>
+    <string name="rongcua">Rộng cửa (mm)</string>
+    <string name="caocua">Cao cửa (mm)</string>
+    <string name="hochancanh">Hở chân cánh (mm)</string>
+    <string name="sobo">Số bộ</string>
+    <string name="luucua">Lưu cửa</string>
+    <string name="quaylai">Quay lại</string>
+    <string name="tenloaihn">Tên loại hệ nhôm </string>
+</resources>

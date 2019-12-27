@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Danh sách công trình"
+        android:icon="@drawable/list"
+        android:id="@+id/list"
+        />
+    <item android:title="Đăng xuất"
+        android:icon="@drawable/logout"
+        android:id="@+id/logout"/>
+</menu>

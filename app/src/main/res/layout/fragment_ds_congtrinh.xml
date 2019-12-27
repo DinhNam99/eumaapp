@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipfresh"
+        >
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rc_congtrinh"
+            android:scrollbars="vertical"
+            />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not"
+        android:textColor="@color/colorText_light"
+        android:textSize="@dimen/text_18"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:id="@+id/tvNot"
+        android:visibility="gone"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbAdd"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_big"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_add"
+        app:borderWidth="0dp"
+        app:elevation="6dp"/>
+
+</RelativeLayout>

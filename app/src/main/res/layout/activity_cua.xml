@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.cua.CuaActivity">
+   <include layout="@layout/toolbar_layout"/>
+
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipfresh">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/congtrinh"
+                android:textSize="@dimen/text_18"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:id="@+id/tvTenct"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_below="@+id/tvTenct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rc_cua"
+                android:scrollbars="vertical"
+                />
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/not2"
+        android:textColor="@color/colorText_light"
+        android:textSize="@dimen/text_18"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:id="@+id/tvNot"
+        android:visibility="gone"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fbAdd"
+        style="@style/Widget.MaterialComponents.FloatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin_big"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_add"
+        app:borderWidth="0dp"
+        app:elevation="6dp"/>
+</RelativeLayout>

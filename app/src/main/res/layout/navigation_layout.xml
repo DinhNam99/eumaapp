@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_150"
+    android:background="@color/colorPrimary"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_image"
+        android:layout_centerVertical="true"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/layout_width_heigth_big"
+            android:layout_height="@dimen/layout_width_heigth_big"
+            android:id="@+id/imageUser"
+            android:src="@drawable/ic_account"
+            android:layout_marginLeft="@dimen/margin_35"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/layout_image"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_big"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/xinchao"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_15"
+            android:layout_marginTop="@dimen/margin_5"
+            android:id="@+id/tvXcUN"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user"
+            android:textSize="@dimen/text_18"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/tvUN"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
